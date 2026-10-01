@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte lo specchietto resta di schiena; se il codice non arriva, dopo 2,5 s va allo stato finale */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaSpec=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,50 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Belleza&amp;family=Hahmlet:wght@400;600&amp;family=Pontano+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"HairSalon","name":"Be.So Parrucchieri","description":"Il salone di Sara in Via Leone Tolstoi 40 a Milano, fra il Giambellino e Piazza Napoli: taglio, piega, colore, schiariture, laminazione e trattamenti per capelli, su appuntamento.","url":"https://rotenzark.github.io/be-so-parrucchieri-tolstoi/","image":"https://rotenzark.github.io/be-so-parrucchieri-tolstoi/img/og.jpg","telephone":"+39 02 4223524","address":{"@type":"PostalAddress","streetAddress":"Via Leone Tolstoi 40","postalCode":"20146","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4523,"longitude":9.15051},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"18:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"98","bestRating":"5"},"sameAs":["https://www.instagram.com/be.so_parrucchieri/"]}
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Be.So Parrucchieri",
+  "description": "Il salone di Sara in Via Leone Tolstoi 40 a Milano, fra il Giambellino e Piazza Napoli: taglio, piega, colore, schiariture, laminazione e trattamenti per capelli, su appuntamento.",
+  "url": "https://rotenzark.github.io/be-so-parrucchieri-tolstoi/",
+  "image": "https://rotenzark.github.io/be-so-parrucchieri-tolstoi/img/og.jpg",
+  "telephone": "+39 02 4223524",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Leone Tolstoi 40",
+    "postalCode": "20146",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.4523,
+    "longitude": 9.15051
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/be.so_parrucchieri/"
+  ]
+}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -216,12 +252,12 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Finalmente, la mia parrucchiera</h2>
     <p class="voto voto--centro"><b class="voto__n">5,0</b> <span class="stelle" aria-hidden="true" style="--voto:1"></span> <span class="voto__su" data-i18n="d.voto">su Google, 98 recensioni</span></p>
     <ul class="recensioni">
-      <li class="recensione reveal"><p class="recensione__testo">«La mia miglior scoperta da quando vivo a Milano. Professionalità e tanto garbo. Soprattutto adoro il fatto che ogni cliente ha un suo tempo esclusivo e dedicato.»</p><p class="recensione__chi"><b>Beatrice Dalia</b> <span data-i18n="d.a2">Google, 2 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«La sua piega liscia sui miei capelli ricci (senza uso di piastra, a differenza di altri saloni) tiene perfettamente, anche in condizioni di umidità/pioggia! Sara è attentissima anche alle richieste sul taglio. […]»</p><p class="recensione__chi"><b>Silvia Tattoli</b> <span data-i18n="d.a1">Google, un anno fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Vivo all’estero ma continuo a tornare da lei per farmi tagliare i capelli, e questo dice già tutto. […]»</p><p class="recensione__chi"><b>Roberta Gargaglione</b> <span data-i18n="d.a1">Google, un anno fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«È diventato il mio salone di fiducia. Servizio sempre al top, Sara è fantastica e oramai mi fido solo di lei per il trattamento di laminazione. Consigliatissimo, una garanzia!!»</p><p class="recensione__chi"><b>Sofia Pesaresi</b> <span data-i18n="d.a2">Google, 2 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Sara è una professionista favolosa. I miei capelli sono crespi e indomabili ma da quando faccio i trattamenti con lei, ho dei capelli stupendi. […]»</p><p class="recensione__chi"><b>Mandana F</b> <span data-i18n="d.a3">Google, 3 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Anche a distanza di mesi, continuo a ricevere complimenti per il nuovo taglio! Sicuramente il taglio con più successo di sempre! […]»</p><p class="recensione__chi"><b>Serena Grillo</b> <span data-i18n="d.a1">Google, un anno fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«La mia miglior scoperta da quando vivo a Milano. Professionalità e tanto garbo. Soprattutto adoro il fatto che ogni cliente ha un suo tempo esclusivo e dedicato.»</p><p class="recensione__chi"><b>Beatrice Dalia</b> <span data-i18n="d.a2">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«La sua piega liscia sui miei capelli ricci (senza uso di piastra, a differenza di altri saloni) tiene perfettamente, anche in condizioni di umidità/pioggia! Sara è attentissima anche alle richieste sul taglio. […]»</p><p class="recensione__chi"><b>Silvia Tattoli</b> <span data-i18n="d.a1">Google, un anno fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Vivo all’estero ma continuo a tornare da lei per farmi tagliare i capelli, e questo dice già tutto. […]»</p><p class="recensione__chi"><b>Roberta Gargaglione</b> <span data-i18n="d.a1">Google, un anno fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«È diventato il mio salone di fiducia. Servizio sempre al top, Sara è fantastica e oramai mi fido solo di lei per il trattamento di laminazione. Consigliatissimo, una garanzia!!»</p><p class="recensione__chi"><b>Sofia Pesaresi</b> <span data-i18n="d.a2">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Sara è una professionista favolosa. I miei capelli sono crespi e indomabili ma da quando faccio i trattamenti con lei, ho dei capelli stupendi. […]»</p><p class="recensione__chi"><b>Mandana F</b> <span data-i18n="d.a3">Google, 3 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Anche a distanza di mesi, continuo a ricevere complimenti per il nuovo taglio! Sicuramente il taglio con più successo di sempre! […]»</p><p class="recensione__chi"><b>Serena Grillo</b> <span data-i18n="d.a1">Google, un anno fa</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte; i tagli sono segnati […].</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Be.So+Parrucchieri%2C+Via+Leone+Tolstoi+40%2C+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
   </section>
@@ -251,7 +287,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       <div>
         <p data-i18n="o.dove">Via Leone Tolstoi 40, 20146 Milano, verso Piazza Napoli. Il <b>tram 14</b> ferma a 100 metri (Via Giambellino – Via Tolstoj); la <b>M4 Tolstoj</b> è a 250 metri, <b>Bolivar</b> a 400.</p>
         <div class="mappa reveal">
-          <iframe title="Mappa: Be.So Parrucchieri, Via Leone Tolstoi 40, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Be.So%20Parrucchieri%2C%20Via%20Leone%20Tolstoi%2040%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="360" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 360px"><template><iframe title="Mappa: Be.So Parrucchieri, Via Leone Tolstoi 40, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Be.So%20Parrucchieri%2C%20Via%20Leone%20Tolstoi%2040%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="360" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/search/?api=1&amp;query=Be.So+Parrucchieri%2C+Via+Leone+Tolstoi+40%2C+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
         <p class="orari__azioni"><a class="bottone" href="https://www.google.com/maps/dir/?api=1&amp;destination=Be.So+Parrucchieri%2C+Via+Leone+Tolstoi+40%2C+Milano" target="_blank" rel="noopener" data-i18n="o.indicazioni">Indicazioni</a></p>
       </div>
@@ -281,7 +317,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__frase" data-i18n="z.frase">Benvenuti nel mio salone.</p>
     <p class="piede__chi">Sara</p>
     <p class="piede__dove"><span data-i18n="z.dove">Via Leone Tolstoi 40, Milano</span> · <a href="tel:+39024223524" class="intero">02 422 3524</a> · <a id="waPiede" href="https://wa.me/393491892490" target="_blank" rel="noopener" class="intero">WhatsApp 349 189 2490</a></p>
-    <p class="piede__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · le foto sono del salone, dalla sua scheda Google (i volti, i poster pubblicitari e i marchi sono tagliati o sfocati); orari e recensioni da Google (settembre 2026). Lo specchietto in apertura l'abbiamo disegnato noi.</p>
+    <p class="piede__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · le foto sono del salone, dalla sua scheda Google (i volti, i poster pubblicitari e i marchi sono tagliati o sfocati); orari e recensioni da Google (settembre 2026). Lo specchietto in apertura l'abbiamo disegnato noi.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="z.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -296,5 +332,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
